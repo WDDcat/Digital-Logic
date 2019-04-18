@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\16021019\Test03\Project\simulation\qsim
+vBlock1
+Z1 Idg`i8dDBF?VaTJ:<IR9o]3
+Z2 VC@WYDaJh5QX<o_U1i3B[U2
+Z3 dD:\16021019\Test03\Project\simulation\qsim
+Z4 w1319615169
+Z5 8Selector.vo
+Z6 FSelector.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Selector.vo|
+Z9 o-work work -O0
+Z10 n@block1
+!i10b 1
+Z11 !s100 V3=QKG_hnf59f;];X]JAT1
+!s85 0
+Z12 !s108 1319615170.053000
+Z13 !s107 Selector.vo|
+!s101 -O0
+vBlock1_vlg_check_tst
+!i10b 1
+!s100 D@dRjkhZHGb79KKebb`^B0
+I=X_13C:R]Ahcf>kg75]:@3
+Z14 VD4GiAPglQNJd_Om3c9e]a3
+R3
+Z15 w1319615167
+Z16 8Selector.vt
+Z17 FSelector.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z18 !s108 1319615170.411000
+Z19 !s107 Selector.vt|
+Z20 !s90 -work|work|Selector.vt|
+!s101 -O0
+R9
+Z21 n@block1_vlg_check_tst
+vBlock1_vlg_sample_tst
+!i10b 1
+Z22 !s100 b<S`Cj_0S83dHDn3L9fhT1
+Z23 I>k0aJz`iUFIMC7da9Um=?0
+Z24 V89>eJ<<Tb45nRd_MHY_Qm2
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z25 n@block1_vlg_sample_tst
+vBlock1_vlg_vec_tst
+!i10b 1
+!s100 Ko=9V:M`K<[Fz@FTRUA:e3
+Ihl;NodEimJTW`6c@9G`Gh3
+Z26 V8EbEX^g@9e0ZUXjTWSm=l2
+R3
+R15
+R16
+R17
+Z27 L0 347
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z28 n@block1_vlg_vec_tst
+vSelector
+Z29 !s100 nJ<WHZ_iBmHGb3SAXMXjk1
+Z30 IXWiXQ2Sf;U^Z95CVf<nVS3
+Z31 Vi?YK:Ho9KhXN`]Cc6GFY22
+R3
+Z32 w1319615078
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z33 n@selector
+Z34 !s108 1319615079.143000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vSelector_vlg_check_tst
+Z35 IFEP_f>LNf_n2<gP82b4>42
+Z36 V@eY@S1kYgDF7;UE_a?l@43
+R3
+Z37 w1319614928
+R16
+R17
+L0 63
+R7
+r1
+31
+Z38 !s108 1319614930.605000
+Z39 !s107 Selector.vt|
+R20
+R9
+Z40 n@selector_vlg_check_tst
+Z41 !s100 YNCSA]FiMdUm1<033kl_U3
+!i10b 1
+!s85 0
+!s101 -O0
+vSelector_vlg_sample_tst
+Z42 !s100 6nZ6dC@FKF?<g@13I8YTa3
+Z43 IAE8G:SW69d7GkZfGlQ6U43
+Z44 VaJL;A4FP5DCRU>K1?Tn]91
+R3
+R37
+R16
+R17
+L0 29
+R7
+r1
+31
+R38
+R39
+R20
+R9
+Z45 n@selector_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vSelector_vlg_vec_tst
+Z46 I1oo39I<fnfBimko>hJj=C1
+Z47 VVWPjRbgNK?h;BENJk??5d3
+R3
+Z48 w1319615077
+R16
+R17
+L0 29
+R7
+r1
+31
+R20
+R9
+Z49 n@selector_vlg_vec_tst
+Z50 !s100 ^bO[71U6[2KSfL78]Ko=41
+Z51 !s108 1319615079.268000
+R39
+!i10b 1
+!s85 0
+!s101 -O0

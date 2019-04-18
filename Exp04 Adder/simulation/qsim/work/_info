@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\16021019\Test04\Project\simulation\qsim
+vAdder
+Z1 ITU>=2LP;oK]XcWIkemK^f3
+Z2 VRE_hSd6oFDDa4LS1W:4B]2
+Z3 dD:\16021019\Test04\Project\simulation\qsim
+Z4 w1510207927
+Z5 8Adder.vo
+Z6 FAdder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@adder
+Z10 !s100 [z5RZhk;@e`G[FnfUz:5B3
+Z11 !s108 1510207937.062000
+Z12 !s107 Adder.vo|
+Z13 !s90 -work|work|Adder.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vAdder_vlg_check_tst
+Z14 IN6JKg?f=;5SMl`bZQzWzY3
+Z15 VU57f6QcGeIoS?JWWFoiZ>1
+R3
+Z16 w1510207926
+Z17 8Adder.vt
+Z18 FAdder.vt
+L0 59
+R7
+r1
+31
+Z19 !s108 1510207937.358000
+Z20 !s107 Adder.vt|
+Z21 !s90 -work|work|Adder.vt|
+R8
+Z22 n@adder_vlg_check_tst
+Z23 !s100 ?Hd`m2F?fa=>NgT<X^?>10
+!i10b 1
+!s85 0
+!s101 -O0
+vAdder_vlg_sample_tst
+Z24 I^k?lT93?T@:FDlg:eTfJ63
+Z25 V`@iMA=TQkgZLPL@OYCa<B0
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+31
+R19
+R20
+R21
+R8
+Z26 n@adder_vlg_sample_tst
+Z27 !s100 ?UJ2FK>>4WhS]J4Wfdm1H3
+!i10b 1
+!s85 0
+!s101 -O0
+vAdder_vlg_vec_tst
+Z28 I:5Fo0ElO`91XgR4i[@ADK0
+Z29 V=L^jba2?K`l?=FF]dg`2U1
+R3
+R16
+R17
+R18
+Z30 L0 234
+R7
+r1
+31
+R19
+R20
+R21
+R8
+Z31 n@adder_vlg_vec_tst
+Z32 !s100 64`gbziB0[S]DRm>kK^Jh3
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock
+Z33 !s100 WNWY1QD_BK3nR1Vi0E`YP0
+Z34 I>NNBnJMSLFf0bn`?8]d5a1
+Z35 VzE7MQ87gZ1ge;T5T7`7mQ1
+R3
+Z36 w1510214402
+R5
+R6
+L0 31
+R7
+r1
+31
+R13
+R8
+Z37 n@block
+!i10b 1
+!s85 0
+Z38 !s108 1510214403.588000
+R12
+!s101 -O0
+vBlock_vlg_check_tst
+!i10b 1
+Z39 !s100 9M><1jWH@MVf_g7Dg4=0l3
+Z40 I>2SAnmFJb5@2Mc8<bXZJ]3
+Z41 V8XL=Pg7:YUj^GoVbm>V`30
+R3
+Z42 w1510214401
+R17
+R18
+L0 63
+R7
+r1
+!s85 0
+31
+Z43 !s108 1510214403.729000
+Z44 !s107 Adder.vt|
+R21
+!s101 -O0
+R8
+Z45 n@block_vlg_check_tst
+vBlock_vlg_sample_tst
+!i10b 1
+Z46 !s100 cXQ>Qz4WFg46=i5Y63>Cj1
+Z47 IK7?j[;fDaAijK^eFKQ0eE1
+Z48 V5[ilWi4U;LKkGX]<Jk5n62
+R3
+R42
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R43
+R44
+R21
+!s101 -O0
+R8
+Z49 n@block_vlg_sample_tst
+vBlock_vlg_vec_tst
+!i10b 1
+Z50 !s100 Bm99b:9`Xga9daZam]NXH0
+Z51 I>TWO[EXVJ1bZ96aI[_JD:0
+Z52 VZHWE<4]zP10Eo_SI7mP?81
+R3
+R42
+R17
+R18
+Z53 L0 319
+R7
+r1
+!s85 0
+31
+R43
+R44
+R21
+!s101 -O0
+R8
+Z54 n@block_vlg_vec_tst

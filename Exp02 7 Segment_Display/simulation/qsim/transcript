@@ -1,0 +1,32 @@
+# do 7-Segment_Display.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Seven_Segment_Display
+# 
+# Top level modules:
+# 	Seven_Segment_Display
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Seven_Segment_Display_vlg_sample_tst
+# -- Compiling module Seven_Segment_Display_vlg_check_tst
+# -- Compiling module Seven_Segment_Display_vlg_vec_tst
+# 
+# Top level modules:
+# 	Seven_Segment_Display_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Seven_Segment_Display_vlg_vec_tst 
+# Loading work.Seven_Segment_Display_vlg_vec_tst
+# Loading work.Seven_Segment_Display
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.Seven_Segment_Display_vlg_sample_tst
+# Loading work.Seven_Segment_Display_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from 7-Segment_Display_v.sdo
+# Loading timing data from 7-Segment_Display_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Seven_Segment_Display_vlg_vec_tst File: 7-Segment_Display.vt
+# Simulation passed !
+# ** Note: $finish    : 7-Segment_Display.vt(337)
+#    Time: 800 ns  Iteration: 0  Instance: /Seven_Segment_Display_vlg_vec_tst/tb_out

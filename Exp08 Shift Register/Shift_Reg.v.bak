@@ -1,0 +1,14 @@
+module Shift_Reg(clk,Din,Num,LorR,Dout);
+	input clk,LorR;
+	input [7:0]Din;
+	input [2:0]Num;
+	output [7:0]Dout;
+	reg [7:0]Dout;
+	always @ (posedge clk)
+	begin
+		if(LorR == 0)
+			out = out<<Num;
+		else
+			out = out >>Num;
+	end
+endmodule

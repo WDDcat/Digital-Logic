@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, Voter.vwf
+source_file = 1, D:/16021019/Test01/Waveform.vwf
+source_file = 1, D:/16021019/Test01/db/Voter.cbx.xml
+source_file = 1, voter.v
+design_name = Voter
+instance = comp, \F~output , F~output, Voter, 1
+instance = comp, \D~input , D~input, Voter, 1
+instance = comp, \C~input , C~input, Voter, 1
+instance = comp, \B~input , B~input, Voter, 1
+instance = comp, \A~input , A~input, Voter, 1
+instance = comp, \F~0 , F~0, Voter, 1

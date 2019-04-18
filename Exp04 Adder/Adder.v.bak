@@ -1,0 +1,33 @@
+module Adder(A,B,C,co);
+	input [3:0]A,B;
+	output [3:0]C;
+	output co;
+	wire [3:0]temp;
+	wire co1,co2,co3,co4;
+		assign temp[0] = A[0] ^ B[0];
+		assign co1 = A[0] && B[0];
+		assign temp[1] = (A[1] ^ B[1]) ^ co1;
+		assign co2 = (A[1] && co1) || (B[1] && co1) || (A[1] && B[1]);
+		assign temp[2] = (A[2] ^ B[2]) ^ co2;
+		assign co3 = (A[2] && co2) || (B[2] && co2) || (A[2] && B[2]);
+		assign temp[3] = (A[3] ^ B[3]) ^ co3;
+		assign co4 = (A[3] && co3) || (B[3] && co3) || (A[3] && B[3]);
+	reg co;
+	reg [3:0]C;
+	always @ (temp)
+	begin
+		C = temp;
+		if(C >= 4'b1010)
+		begin
+			co = 1;
+			C = C + 4'b0110;
+		end
+		else co=0;
+		if(co4 == 1)
+		begin
+			co = 1;
+			C = C + 4'b0110;
+		end
+	end
+endmodule
+	

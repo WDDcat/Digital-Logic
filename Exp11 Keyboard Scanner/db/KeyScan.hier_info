@@ -1,0 +1,17 @@
+|KeyScan
+SWC[0] <= SWC[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SWC[1] <= SWC[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SWC[2] <= SWC[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SWC[3] <= SWC[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => key~reg0.CLK
+clk => SWC[0]~reg0.CLK
+clk => SWC[1]~reg0.CLK
+clk => SWC[2]~reg0.CLK
+clk => SWC[3]~reg0.CLK
+SWR[0] => Decoder0.IN3
+SWR[1] => Decoder0.IN2
+SWR[2] => Decoder0.IN1
+SWR[3] => Decoder0.IN0
+key <= key~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,41 @@
+module Controller(rst,clk_1khz,clk_1hz,B1U,B2U,B2D,B3U,B3D,B4D,C1U,C2U,C2D,C3U,C3D,C4D);
+	input rst,clk_1hz,B1U,B2U,B2D,B3U,B3D,B4D;
+	output C1U,C2U,C2D,C3U,C3D,C4D;
+	reg C1U,C2U,C2D,C3U,C3D,C4D;
+	reg E1U,E2U,E2D,E3U,E3D,E4D;
+	reg [1:0]position;
+	reg head;
+	reg stop;
+	
+	always @ (posedge clk_1khz)
+	begin
+		if(rst)	begin
+			E1U=0;
+			E2U=0;
+			E2D=0;
+			E3U=0;
+			E3D=0;
+			E4D=0;
+		end
+		else	begin
+			if(B1U == 0)	E1U = 1;
+			if(B2U == 0)	E2U = 1;
+			if(B2D == 0)	E2D = 1;
+			if(B3U == 0)	E3U = 1;
+			if(B3D == 0)	E3D = 1;
+			if(B4D == 0)	E4D = 1;
+		end
+	end
+	
+	always @ (*)
+	begin
+		if(rst) position = 2'b00;
+	end
+	
+	always @ (posedge clk_1hz)
+	begin
+		if(head == 1'b1)	begin
+			if(position == 2'b11)
+		end
+	end
+endmodule

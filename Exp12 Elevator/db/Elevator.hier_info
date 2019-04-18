@@ -1,0 +1,22 @@
+|Move
+rst => position.OUTPUTSELECT
+rst => position.OUTPUTSELECT
+rst => Door~reg0.ENA
+clk_1hz => clk.CLK
+clk_1hz => count.CLK
+DoorClose => Door.OUTPUTSELECT
+DoorClose => position.OUTPUTSELECT
+DoorClose => position.OUTPUTSELECT
+DoorClose => Door.OUTPUTSELECT
+DoorClose => position.OUTPUTSELECT
+DoorClose => position.OUTPUTSELECT
+stop => Door.OUTPUTSELECT
+stop => position.OUTPUTSELECT
+stop => position.OUTPUTSELECT
+head => position.OUTPUTSELECT
+head => position.OUTPUTSELECT
+Door <= Door~reg0.DB_MAX_OUTPUT_PORT_TYPE
+position[0] <= position[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+position[1] <= position[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,35 @@
+# do Voter.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Voter
+# 
+# Top level modules:
+# 	Voter
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Voter_vlg_sample_tst
+# -- Compiling module Voter_vlg_check_tst
+# -- Compiling module Voter_vlg_vec_tst
+# 
+# Top level modules:
+# 	Voter_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Voter_vlg_vec_tst 
+# Loading work.Voter_vlg_vec_tst
+# Loading work.Voter
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.Voter_vlg_sample_tst
+# Loading work.Voter_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Voter_v.sdo
+# Loading timing data from Voter_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Voter_vlg_vec_tst File: Voter.vt
+# ERROR! Vector Mismatch for output port F :: @time = 400000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#           1 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Voter.vt(155)
+#    Time: 800 ns  Iteration: 0  Instance: /Voter_vlg_vec_tst/tb_out

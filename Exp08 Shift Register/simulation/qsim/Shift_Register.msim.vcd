@@ -1,0 +1,472 @@
+$comment
+	File created using the following command:
+		vcd file Shift_Register.msim.vcd -direction
+$end
+$date
+	Mon Nov 20 12:45:17 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Shift_Reg_vlg_vec_tst $end
+$var reg 8 ! Din [7:0] $end
+$var reg 1 " LorR $end
+$var reg 3 # Num [2:0] $end
+$var reg 1 $ clk $end
+$var wire 1 % Dout [7] $end
+$var wire 1 & Dout [6] $end
+$var wire 1 ' Dout [5] $end
+$var wire 1 ( Dout [4] $end
+$var wire 1 ) Dout [3] $end
+$var wire 1 * Dout [2] $end
+$var wire 1 + Dout [1] $end
+$var wire 1 , Dout [0] $end
+$var wire 1 - sampler $end
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 ShiftLeft0~0_combout $end
+$var wire 1 5 Dout~9_combout $end
+$var wire 1 6 Dout~12_combout $end
+$var wire 1 7 ShiftLeft0~2_combout $end
+$var wire 1 8 ShiftRight0~7_combout $end
+$var wire 1 9 ShiftRight0~8_combout $end
+$var wire 1 : ShiftLeft0~8_combout $end
+$var wire 1 ; Dout~22_combout $end
+$var wire 1 < Dout~24_combout $end
+$var wire 1 = Dout[0]~output_o $end
+$var wire 1 > Dout[1]~output_o $end
+$var wire 1 ? Dout[2]~output_o $end
+$var wire 1 @ Dout[3]~output_o $end
+$var wire 1 A Dout[4]~output_o $end
+$var wire 1 B Dout[5]~output_o $end
+$var wire 1 C Dout[6]~output_o $end
+$var wire 1 D Dout[7]~output_o $end
+$var wire 1 E clk~input_o $end
+$var wire 1 F clk~inputclkctrl_outclk $end
+$var wire 1 G LorR~input_o $end
+$var wire 1 H Num[2]~input_o $end
+$var wire 1 I Num[0]~input_o $end
+$var wire 1 J Num[1]~input_o $end
+$var wire 1 K Dout[0]~5_combout $end
+$var wire 1 L Din[6]~input_o $end
+$var wire 1 M ShiftRight0~1_combout $end
+$var wire 1 N ShiftRight0~3_combout $end
+$var wire 1 O Din[0]~input_o $end
+$var wire 1 P Din[2]~input_o $end
+$var wire 1 Q Din[3]~input_o $end
+$var wire 1 R ShiftRight0~0_combout $end
+$var wire 1 S Dout~7_combout $end
+$var wire 1 T Dout~8_combout $end
+$var wire 1 U Dout~29_combout $end
+$var wire 1 V Dout[0]~reg0_q $end
+$var wire 1 W Din[1]~input_o $end
+$var wire 1 X ShiftLeft0~1_combout $end
+$var wire 1 Y Din[5]~input_o $end
+$var wire 1 Z ShiftRight0~5_combout $end
+$var wire 1 [ ShiftRight0~6_combout $end
+$var wire 1 \ Dout~10_combout $end
+$var wire 1 ] Dout~11_combout $end
+$var wire 1 ^ Dout[1]~reg0_q $end
+$var wire 1 _ Din[4]~input_o $end
+$var wire 1 ` ShiftRight0~2_combout $end
+$var wire 1 a ShiftLeft0~3_combout $end
+$var wire 1 b Dout[2]~13_combout $end
+$var wire 1 c Dout[2]~14_combout $end
+$var wire 1 d Dout~15_combout $end
+$var wire 1 e Dout~16_combout $end
+$var wire 1 f Dout[2]~reg0_q $end
+$var wire 1 g ShiftRight0~4_combout $end
+$var wire 1 h ShiftLeft0~4_combout $end
+$var wire 1 i ShiftLeft0~5_combout $end
+$var wire 1 j Dout~17_combout $end
+$var wire 1 k Dout~18_combout $end
+$var wire 1 l Dout[3]~reg0_q $end
+$var wire 1 m Dout~4_combout $end
+$var wire 1 n Dout[4]~19_combout $end
+$var wire 1 o Dout~20_combout $end
+$var wire 1 p ShiftLeft0~6_combout $end
+$var wire 1 q Dout~21_combout $end
+$var wire 1 r Dout[4]~reg0_q $end
+$var wire 1 s ShiftLeft0~7_combout $end
+$var wire 1 t Dout~23_combout $end
+$var wire 1 u Dout[5]~reg0_q $end
+$var wire 1 v Dout[0]~6_combout $end
+$var wire 1 w Dout~25_combout $end
+$var wire 1 x Dout~26_combout $end
+$var wire 1 y Dout[6]~reg0_q $end
+$var wire 1 z Din[7]~input_o $end
+$var wire 1 { Dout~27_combout $end
+$var wire 1 | Dout~28_combout $end
+$var wire 1 } Dout~30_combout $end
+$var wire 1 ~ Dout[7]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1101010 !
+1"
+b11 #
+0$
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x-
+0.
+1/
+x0
+11
+12
+13
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+x<
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+0E
+xF
+1G
+0H
+1I
+1J
+xK
+1L
+xM
+xN
+0O
+0P
+1Q
+xR
+xS
+xT
+xU
+0V
+1W
+xX
+1Y
+xZ
+x[
+x\
+x]
+0^
+0_
+x`
+xa
+xb
+xc
+xd
+xe
+0f
+xg
+xh
+xi
+xj
+xk
+0l
+xm
+xn
+xo
+xp
+xq
+0r
+xs
+xt
+0u
+xv
+xw
+xx
+0y
+0z
+x{
+x|
+x}
+0~
+$end
+#176
+0F
+#4008
+0n
+#4032
+0m
+#4041
+0?
+0*
+#4113
+08
+09
+#4126
+1v
+#4274
+0A
+0(
+#4275
+0B
+0'
+#4295
+0=
+0,
+#4345
+0s
+#4348
+1Z
+#4371
+04
+#4375
+0:
+#4404
+0@
+0)
+#4480
+0D
+0%
+#4532
+1p
+#4536
+1R
+#4694
+0g
+#4731
+0C
+0&
+#4768
+16
+#4796
+17
+#4830
+0[
+#4833
+0a
+#4907
+0X
+#4910
+0M
+#4917
+0}
+#4920
+1c
+#4963
+1S
+#5048
+0h
+#5122
+1`
+#5208
+1b
+#5214
+0K
+#5285
+0x
+#5516
+0i
+#5674
+0;
+#5884
+1e
+#5905
+1T
+#6001
+0d
+#6052
+0N
+#6090
+0>
+0+
+#6246
+0j
+#6295
+0<
+#6298
+05
+#6323
+1U
+#6450
+0{
+#6851
+0t
+#7098
+0\
+#7220
+0o
+#7244
+0|
+#7254
+1k
+#7511
+0]
+#7582
+1w
+#7803
+0q
+#50000
+1$
+0-
+#50897
+1E
+#51083
+1F
+#53474
+1f
+1l
+#53480
+1V
+#57631
+1?
+1*
+#57910
+1@
+1)
+#57971
+1=
+1,
+#100000
+0$
+1-
+#100948
+0E
+#101124
+0F
+#150000
+1$
+0-
+#150897
+1E
+#151083
+1F
+#200000
+0$
+1-
+#200948
+0E
+#201124
+0F
+#250000
+1$
+0-
+#250897
+1E
+#251083
+1F
+#300000
+0$
+1-
+#300948
+0E
+#301124
+0F
+#350000
+1$
+0-
+#350897
+1E
+#351083
+1F
+#400000
+0$
+1-
+#400948
+0E
+#401124
+0F
+#450000
+1$
+0-
+#450897
+1E
+#451083
+1F
+#500000
+0$
+1-
+#500948
+0E
+#501124
+0F
+#550000
+1$
+0-
+#550897
+1E
+#551083
+1F
+#600000
+0$
+1-
+#600948
+0E
+#601124
+0F
+#650000
+1$
+0-
+#650897
+1E
+#651083
+1F
+#700000
+0$
+1-
+#700948
+0E
+#701124
+0F
+#750000
+1$
+0-
+#750897
+1E
+#751083
+1F
+#800000
+0$
+1-
+#800948
+0E
+#801124
+0F
+#850000
+1$
+0-
+#850897
+1E
+#851083
+1F
+#900000
+0$
+1-
+#900948
+0E
+#901124
+0F
+#950000
+1$
+0-
+#950897
+1E
+#951083
+1F
+#1000000

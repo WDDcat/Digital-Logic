@@ -1,0 +1,3077 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 0.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("Block_vlg_vec_tst|AA")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 4;
+	LSB_INDEX = 0;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|AA[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|AA";
+}
+
+SIGNAL("Block_vlg_vec_tst|AA[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|AA";
+}
+
+SIGNAL("Block_vlg_vec_tst|AA[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|AA";
+}
+
+SIGNAL("Block_vlg_vec_tst|AA[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|AA";
+}
+
+SIGNAL("Block_vlg_vec_tst|BB")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 4;
+	LSB_INDEX = 0;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|BB[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|BB";
+}
+
+SIGNAL("Block_vlg_vec_tst|BB[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|BB";
+}
+
+SIGNAL("Block_vlg_vec_tst|BB[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|BB";
+}
+
+SIGNAL("Block_vlg_vec_tst|BB[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "Block_vlg_vec_tst|BB";
+}
+
+SIGNAL("Block_vlg_vec_tst|S0")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|S1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|co")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|led[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|sel")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|sampler")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|gnd")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|vcc")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|unknown")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|devclrn")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|devpor")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|devoe")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|BB[2]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|AA[3]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|co~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|sel~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[6]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[5]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[4]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[3]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[2]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[1]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|led[0]~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|AA[2]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|AA[0]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|BB[0]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|AA[1]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|co2~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|temp[2]~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|co3~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|BB[3]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|co3~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|co4~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|temp[1]~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|co~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|S1~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[0]~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|S0~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|CC~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[2]~4_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[2]~5_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[2]~6_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[2]~7_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[3]~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[3]~9_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[3]~8_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[3]~10_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|BB[1]~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[1]~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|data[1]~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr0~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr2~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr3~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr4~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr5~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst|WideOr6~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|temp[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|temp[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|temp[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Block_vlg_vec_tst|i1|inst7|temp[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|AA[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|AA[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|AA[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|AA[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|BB[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 300.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 300.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|BB[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 100.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|BB[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 100.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|BB[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|S0")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|S1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|co")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 13.326;
+		LEVEL 0 FOR 199.498;
+		LEVEL 1 FOR 599.985;
+		LEVEL 0 FOR 187.191;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.701;
+		LEVEL 1 FOR 50.615;
+		LEVEL 0 FOR 50.292;
+		LEVEL 1 FOR 201.294;
+		LEVEL 0 FOR 49.244;
+		LEVEL 1 FOR 49.666;
+		LEVEL 0 FOR 201.756;
+		LEVEL 1 FOR 49.004;
+		LEVEL 0 FOR 49.331;
+		LEVEL 1 FOR 49.255;
+		LEVEL 0 FOR 2.448;
+		LEVEL 1 FOR 97.71;
+		LEVEL 0 FOR 50.292;
+		LEVEL 1 FOR 88.392;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 9.911;
+		LEVEL 1 FOR 354.221;
+		LEVEL 0 FOR 44.738;
+		LEVEL 1 FOR 2.564;
+		LEVEL 0 FOR 300.091;
+		LEVEL 1 FOR 288.475;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.889;
+		LEVEL 1 FOR 100.626;
+		LEVEL 0 FOR 49.583;
+		LEVEL 1 FOR 101.942;
+		LEVEL 0 FOR 51.997;
+		LEVEL 1 FOR 96.771;
+		LEVEL 0 FOR 201.759;
+		LEVEL 1 FOR 49.002;
+		LEVEL 0 FOR 49.272;
+		LEVEL 1 FOR 199.674;
+		LEVEL 0 FOR 49.583;
+		LEVEL 1 FOR 38.902;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.693;
+		LEVEL 1 FOR 50.627;
+		LEVEL 0 FOR 50.28;
+		LEVEL 1 FOR 201.306;
+		LEVEL 0 FOR 49.237;
+		LEVEL 1 FOR 49.677;
+		LEVEL 0 FOR 201.741;
+		LEVEL 1 FOR 47.601;
+		LEVEL 0 FOR 50.733;
+		LEVEL 1 FOR 49.267;
+		LEVEL 0 FOR 2.441;
+		LEVEL 1 FOR 97.717;
+		LEVEL 0 FOR 50.28;
+		LEVEL 1 FOR 88.4;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.657;
+		LEVEL 1 FOR 50.628;
+		LEVEL 0 FOR 50.279;
+		LEVEL 1 FOR 49.721;
+		LEVEL 0 FOR 48.509;
+		LEVEL 1 FOR 103.064;
+		LEVEL 0 FOR 49.283;
+		LEVEL 1 FOR 47.2;
+		LEVEL 0 FOR 204.222;
+		LEVEL 1 FOR 47.564;
+		LEVEL 0 FOR 50.714;
+		LEVEL 1 FOR 49.286;
+		LEVEL 0 FOR 50.437;
+		LEVEL 1 FOR 49.721;
+		LEVEL 0 FOR 50.279;
+		LEVEL 1 FOR 49.721;
+		LEVEL 0 FOR 38.715;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 11.529;
+		LEVEL 1 FOR 50.476;
+		LEVEL 0 FOR 151.21;
+		LEVEL 1 FOR 50.527;
+		LEVEL 0 FOR 51.934;
+		LEVEL 1 FOR 96.834;
+		LEVEL 0 FOR 201.696;
+		LEVEL 1 FOR 47.641;
+		LEVEL 0 FOR 50.692;
+		LEVEL 1 FOR 49.308;
+		LEVEL 0 FOR 50.609;
+		LEVEL 1 FOR 49.549;
+		LEVEL 0 FOR 137.995;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|led[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 11.248;
+		LEVEL 0 FOR 100.616;
+		LEVEL 1 FOR 102.917;
+		LEVEL 0 FOR 48.929;
+		LEVEL 1 FOR 48.732;
+		LEVEL 0 FOR 3.094;
+		LEVEL 1 FOR 96.469;
+		LEVEL 0 FOR 202.061;
+		LEVEL 1 FOR 47.242;
+		LEVEL 0 FOR 51.046;
+		LEVEL 1 FOR 3.04;
+		LEVEL 0 FOR 48.721;
+		LEVEL 1 FOR 45.826;
+		LEVEL 0 FOR 101.923;
+		LEVEL 1 FOR 88.136;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|sel")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|sampler")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|gnd")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|vcc")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|unknown")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|devclrn")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|devpor")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|devoe")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|BB[2]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.847;
+		LEVEL 1 FOR 200.05;
+		LEVEL 0 FOR 199.95;
+		LEVEL 1 FOR 200.05;
+		LEVEL 0 FOR 199.95;
+		LEVEL 1 FOR 99.153;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|AA[3]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.867;
+		LEVEL 1 FOR 400.05;
+		LEVEL 0 FOR 199.083;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|co~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 13.326;
+		LEVEL 0 FOR 199.498;
+		LEVEL 1 FOR 599.985;
+		LEVEL 0 FOR 187.191;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|sel~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[6]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.701;
+		LEVEL 1 FOR 50.615;
+		LEVEL 0 FOR 50.292;
+		LEVEL 1 FOR 201.294;
+		LEVEL 0 FOR 49.244;
+		LEVEL 1 FOR 49.666;
+		LEVEL 0 FOR 201.756;
+		LEVEL 1 FOR 49.004;
+		LEVEL 0 FOR 49.331;
+		LEVEL 1 FOR 49.255;
+		LEVEL 0 FOR 2.448;
+		LEVEL 1 FOR 97.71;
+		LEVEL 0 FOR 50.292;
+		LEVEL 1 FOR 88.392;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[5]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 9.911;
+		LEVEL 1 FOR 354.221;
+		LEVEL 0 FOR 44.738;
+		LEVEL 1 FOR 2.564;
+		LEVEL 0 FOR 300.091;
+		LEVEL 1 FOR 288.475;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[4]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.889;
+		LEVEL 1 FOR 100.626;
+		LEVEL 0 FOR 49.583;
+		LEVEL 1 FOR 101.942;
+		LEVEL 0 FOR 51.997;
+		LEVEL 1 FOR 96.771;
+		LEVEL 0 FOR 201.759;
+		LEVEL 1 FOR 49.002;
+		LEVEL 0 FOR 49.272;
+		LEVEL 1 FOR 199.674;
+		LEVEL 0 FOR 49.583;
+		LEVEL 1 FOR 38.902;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[3]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.693;
+		LEVEL 1 FOR 50.627;
+		LEVEL 0 FOR 50.28;
+		LEVEL 1 FOR 201.306;
+		LEVEL 0 FOR 49.237;
+		LEVEL 1 FOR 49.677;
+		LEVEL 0 FOR 201.741;
+		LEVEL 1 FOR 47.601;
+		LEVEL 0 FOR 50.733;
+		LEVEL 1 FOR 49.267;
+		LEVEL 0 FOR 2.441;
+		LEVEL 1 FOR 97.717;
+		LEVEL 0 FOR 50.28;
+		LEVEL 1 FOR 88.4;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[2]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.657;
+		LEVEL 1 FOR 50.628;
+		LEVEL 0 FOR 50.279;
+		LEVEL 1 FOR 49.721;
+		LEVEL 0 FOR 48.509;
+		LEVEL 1 FOR 103.064;
+		LEVEL 0 FOR 49.283;
+		LEVEL 1 FOR 47.2;
+		LEVEL 0 FOR 204.222;
+		LEVEL 1 FOR 47.564;
+		LEVEL 0 FOR 50.714;
+		LEVEL 1 FOR 49.286;
+		LEVEL 0 FOR 50.437;
+		LEVEL 1 FOR 49.721;
+		LEVEL 0 FOR 50.279;
+		LEVEL 1 FOR 49.721;
+		LEVEL 0 FOR 38.715;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[1]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 11.529;
+		LEVEL 1 FOR 50.476;
+		LEVEL 0 FOR 151.21;
+		LEVEL 1 FOR 50.527;
+		LEVEL 0 FOR 51.934;
+		LEVEL 1 FOR 96.834;
+		LEVEL 0 FOR 201.696;
+		LEVEL 1 FOR 47.641;
+		LEVEL 0 FOR 50.692;
+		LEVEL 1 FOR 49.308;
+		LEVEL 0 FOR 50.609;
+		LEVEL 1 FOR 49.549;
+		LEVEL 0 FOR 137.995;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|led[0]~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 11.248;
+		LEVEL 0 FOR 100.616;
+		LEVEL 1 FOR 102.917;
+		LEVEL 0 FOR 48.929;
+		LEVEL 1 FOR 48.732;
+		LEVEL 0 FOR 3.094;
+		LEVEL 1 FOR 96.469;
+		LEVEL 0 FOR 202.061;
+		LEVEL 1 FOR 47.242;
+		LEVEL 0 FOR 51.046;
+		LEVEL 1 FOR 3.04;
+		LEVEL 0 FOR 48.721;
+		LEVEL 1 FOR 45.826;
+		LEVEL 0 FOR 101.923;
+		LEVEL 1 FOR 88.136;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|AA[2]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.877;
+		LEVEL 1 FOR 200.05;
+		LEVEL 0 FOR 199.95;
+		LEVEL 1 FOR 200.05;
+		LEVEL 0 FOR 199.073;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|AA[0]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.857;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 49.143;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|BB[0]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.887;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 50.05;
+		LEVEL 0 FOR 49.95;
+		LEVEL 1 FOR 49.113;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|AA[1]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.877;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 99.123;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|co2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.149;
+		LEVEL 0 FOR 50.8;
+		LEVEL 1 FOR 50.874;
+		LEVEL 0 FOR 49.126;
+		LEVEL 1 FOR 50.372;
+		LEVEL 0 FOR 49.628;
+		LEVEL 1 FOR 50.874;
+		LEVEL 0 FOR 49.126;
+		LEVEL 1 FOR 50.372;
+		LEVEL 0 FOR 49.628;
+		LEVEL 1 FOR 50.874;
+		LEVEL 0 FOR 49.126;
+		LEVEL 1 FOR 50.372;
+		LEVEL 0 FOR 49.628;
+		LEVEL 1 FOR 50.874;
+		LEVEL 0 FOR 49.126;
+		LEVEL 1 FOR 50.372;
+		LEVEL 0 FOR 49.628;
+		LEVEL 1 FOR 50.874;
+		LEVEL 0 FOR 49.126;
+		LEVEL 1 FOR 43.051;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|temp[2]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.768;
+		LEVEL 0 FOR 50.853;
+		LEVEL 1 FOR 49.45;
+		LEVEL 0 FOR 1.393;
+		LEVEL 1 FOR 49.135;
+		LEVEL 0 FOR 48.298;
+		LEVEL 1 FOR 2.043;
+		LEVEL 0 FOR 49.681;
+		LEVEL 1 FOR 49.874;
+		LEVEL 0 FOR 0.969;
+		LEVEL 1 FOR 49.135;
+		LEVEL 0 FOR 48.509;
+		LEVEL 1 FOR 1.832;
+		LEVEL 0 FOR 49.681;
+		LEVEL 1 FOR 49.45;
+		LEVEL 0 FOR 1.393;
+		LEVEL 1 FOR 49.135;
+		LEVEL 0 FOR 48.298;
+		LEVEL 1 FOR 2.043;
+		LEVEL 0 FOR 49.681;
+		LEVEL 1 FOR 49.874;
+		LEVEL 0 FOR 0.969;
+		LEVEL 1 FOR 49.135;
+		LEVEL 0 FOR 48.509;
+		LEVEL 1 FOR 1.832;
+		LEVEL 0 FOR 49.681;
+		LEVEL 1 FOR 49.45;
+		LEVEL 0 FOR 1.393;
+		LEVEL 1 FOR 49.135;
+		LEVEL 0 FOR 42.401;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|co3~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 4.789;
+		LEVEL 0 FOR 200.73;
+		LEVEL 1 FOR 101.882;
+		LEVEL 0 FOR 298.118;
+		LEVEL 1 FOR 101.882;
+		LEVEL 0 FOR 292.599;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|BB[3]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 300.867;
+		LEVEL 1 FOR 400.05;
+		LEVEL 0 FOR 299.083;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|co3~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.505;
+		LEVEL 0 FOR 100.479;
+		LEVEL 1 FOR 1.46;
+		LEVEL 0 FOR 49.176;
+		LEVEL 1 FOR 50.322;
+		LEVEL 0 FOR 49.678;
+		LEVEL 1 FOR 50.824;
+		LEVEL 0 FOR 49.176;
+		LEVEL 1 FOR 48.403;
+		LEVEL 0 FOR 100.961;
+		LEVEL 1 FOR 1.46;
+		LEVEL 0 FOR 49.176;
+		LEVEL 1 FOR 50.322;
+		LEVEL 0 FOR 49.678;
+		LEVEL 1 FOR 50.824;
+		LEVEL 0 FOR 49.176;
+		LEVEL 1 FOR 48.403;
+		LEVEL 0 FOR 100.961;
+		LEVEL 1 FOR 1.46;
+		LEVEL 0 FOR 49.176;
+		LEVEL 1 FOR 42.38;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|co4~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.888;
+		LEVEL 0 FOR 300.578;
+		LEVEL 1 FOR 2.407;
+		LEVEL 0 FOR 49.175;
+		LEVEL 1 FOR 350.825;
+		LEVEL 0 FOR 49.175;
+		LEVEL 1 FOR 48.183;
+		LEVEL 0 FOR 193.769;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|temp[1]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.58;
+		LEVEL 1 FOR 50.418;
+		LEVEL 0 FOR 49.691;
+		LEVEL 1 FOR 0.682;
+		LEVEL 0 FOR 0.481;
+		LEVEL 1 FOR 49.146;
+		LEVEL 0 FOR 50.449;
+		LEVEL 1 FOR 49.551;
+		LEVEL 0 FOR 49.691;
+		LEVEL 1 FOR 0.682;
+		LEVEL 0 FOR 0.481;
+		LEVEL 1 FOR 49.146;
+		LEVEL 0 FOR 50.449;
+		LEVEL 1 FOR 49.551;
+		LEVEL 0 FOR 49.691;
+		LEVEL 1 FOR 0.682;
+		LEVEL 0 FOR 0.481;
+		LEVEL 1 FOR 49.146;
+		LEVEL 0 FOR 50.449;
+		LEVEL 1 FOR 49.551;
+		LEVEL 0 FOR 49.691;
+		LEVEL 1 FOR 0.682;
+		LEVEL 0 FOR 0.481;
+		LEVEL 1 FOR 49.146;
+		LEVEL 0 FOR 50.449;
+		LEVEL 1 FOR 49.551;
+		LEVEL 0 FOR 49.691;
+		LEVEL 1 FOR 0.682;
+		LEVEL 0 FOR 0.481;
+		LEVEL 1 FOR 49.146;
+		LEVEL 0 FOR 43.002;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|co~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.557;
+		LEVEL 0 FOR 100.446;
+		LEVEL 1 FOR 1.493;
+		LEVEL 0 FOR 97.377;
+		LEVEL 1 FOR 50.766;
+		LEVEL 0 FOR 0.958;
+		LEVEL 1 FOR 548.443;
+		LEVEL 0 FOR 100.963;
+		LEVEL 1 FOR 1.493;
+		LEVEL 0 FOR 90.504;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|S1~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 200.857;
+		LEVEL 1 FOR 200.051;
+		LEVEL 0 FOR 199.949;
+		LEVEL 1 FOR 200.051;
+		LEVEL 0 FOR 199.092;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[0]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.427;
+		LEVEL 0 FOR 50.555;
+		LEVEL 1 FOR 50.352;
+		LEVEL 0 FOR 49.648;
+		LEVEL 1 FOR 47.754;
+		LEVEL 0 FOR 200.302;
+		LEVEL 1 FOR 2.179;
+		LEVEL 0 FOR 49.607;
+		LEVEL 1 FOR 50.393;
+		LEVEL 0 FOR 49.607;
+		LEVEL 1 FOR 50.393;
+		LEVEL 0 FOR 49.607;
+		LEVEL 1 FOR 50.393;
+		LEVEL 0 FOR 49.607;
+		LEVEL 1 FOR 50.51;
+		LEVEL 0 FOR 49.648;
+		LEVEL 1 FOR 50.352;
+		LEVEL 0 FOR 49.648;
+		LEVEL 1 FOR 43.018;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|S0~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.857;
+		LEVEL 1 FOR 400.051;
+		LEVEL 0 FOR 199.092;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|CC~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.573;
+		LEVEL 1 FOR 50.072;
+		LEVEL 0 FOR 49.734;
+		LEVEL 1 FOR 0.614;
+		LEVEL 0 FOR 1.519;
+		LEVEL 1 FOR 48.133;
+		LEVEL 0 FOR 49.032;
+		LEVEL 1 FOR 1.438;
+		LEVEL 0 FOR 50.286;
+		LEVEL 1 FOR 48.682;
+		LEVEL 0 FOR 0.296;
+		LEVEL 1 FOR 2.097;
+		LEVEL 0 FOR 48.191;
+		LEVEL 1 FOR 0.734;
+		LEVEL 0 FOR 49.736;
+		LEVEL 1 FOR 49.508;
+		LEVEL 0 FOR 49.734;
+		LEVEL 1 FOR 0.614;
+		LEVEL 0 FOR 1.519;
+		LEVEL 1 FOR 48.133;
+		LEVEL 0 FOR 49.032;
+		LEVEL 1 FOR 1.438;
+		LEVEL 0 FOR 50.286;
+		LEVEL 1 FOR 51.075;
+		LEVEL 0 FOR 48.191;
+		LEVEL 1 FOR 0.734;
+		LEVEL 0 FOR 49.736;
+		LEVEL 1 FOR 49.508;
+		LEVEL 0 FOR 49.734;
+		LEVEL 1 FOR 0.614;
+		LEVEL 0 FOR 1.519;
+		LEVEL 1 FOR 48.133;
+		LEVEL 0 FOR 42.355;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[2]~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.607;
+		LEVEL 0 FOR 50.812;
+		LEVEL 1 FOR 49.491;
+		LEVEL 0 FOR 1.352;
+		LEVEL 1 FOR 49.176;
+		LEVEL 0 FOR 49.701;
+		LEVEL 1 FOR 0.64;
+		LEVEL 0 FOR 98.314;
+		LEVEL 1 FOR 1.241;
+		LEVEL 0 FOR 0.928;
+		LEVEL 1 FOR 48.383;
+		LEVEL 0 FOR 49.444;
+		LEVEL 1 FOR 1.69;
+		LEVEL 0 FOR 49.64;
+		LEVEL 1 FOR 49.491;
+		LEVEL 0 FOR 1.352;
+		LEVEL 1 FOR 49.176;
+		LEVEL 0 FOR 49.701;
+		LEVEL 1 FOR 0.64;
+		LEVEL 0 FOR 98.663;
+		LEVEL 1 FOR 0.892;
+		LEVEL 0 FOR 0.928;
+		LEVEL 1 FOR 48.383;
+		LEVEL 0 FOR 49.261;
+		LEVEL 1 FOR 1.873;
+		LEVEL 0 FOR 49.64;
+		LEVEL 1 FOR 49.491;
+		LEVEL 0 FOR 1.352;
+		LEVEL 1 FOR 49.176;
+		LEVEL 0 FOR 41.562;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[2]~5_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 8.018;
+		LEVEL 0 FOR 50.816;
+		LEVEL 1 FOR 49.487;
+		LEVEL 0 FOR 1.356;
+		LEVEL 1 FOR 49.172;
+		LEVEL 0 FOR 49.705;
+		LEVEL 1 FOR 0.636;
+		LEVEL 0 FOR 98.318;
+		LEVEL 1 FOR 1.237;
+		LEVEL 0 FOR 0.932;
+		LEVEL 1 FOR 48.379;
+		LEVEL 0 FOR 1.103;
+		LEVEL 1 FOR 48.323;
+		LEVEL 0 FOR 1.431;
+		LEVEL 1 FOR 0.277;
+		LEVEL 0 FOR 49.213;
+		LEVEL 1 FOR 0.409;
+		LEVEL 0 FOR 49.343;
+		LEVEL 1 FOR 0.166;
+		LEVEL 0 FOR 0.43;
+		LEVEL 1 FOR 0.904;
+		LEVEL 0 FOR 0.633;
+		LEVEL 1 FOR 48.107;
+		LEVEL 0 FOR 0.476;
+		LEVEL 1 FOR 48.574;
+		LEVEL 0 FOR 1.767;
+		LEVEL 1 FOR 49.957;
+		LEVEL 0 FOR 48.688;
+		LEVEL 1 FOR 0.888;
+		LEVEL 0 FOR 0.932;
+		LEVEL 1 FOR 48.379;
+		LEVEL 0 FOR 1.103;
+		LEVEL 1 FOR 47.885;
+		LEVEL 0 FOR 0.277;
+		LEVEL 1 FOR 1.869;
+		LEVEL 0 FOR 49.644;
+		LEVEL 1 FOR 49.487;
+		LEVEL 0 FOR 1.356;
+		LEVEL 1 FOR 49.172;
+		LEVEL 0 FOR 41.151;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[2]~6_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.161;
+		LEVEL 0 FOR 203.812;
+		LEVEL 1 FOR 0.632;
+		LEVEL 0 FOR 98.322;
+		LEVEL 1 FOR 1.233;
+		LEVEL 0 FOR 0.936;
+		LEVEL 1 FOR 48.375;
+		LEVEL 0 FOR 1.107;
+		LEVEL 1 FOR 46.51;
+		LEVEL 0 FOR 198.874;
+		LEVEL 1 FOR 2.898;
+		LEVEL 0 FOR 1.771;
+		LEVEL 1 FOR 49.953;
+		LEVEL 0 FOR 48.692;
+		LEVEL 1 FOR 0.884;
+		LEVEL 0 FOR 0.936;
+		LEVEL 1 FOR 48.375;
+		LEVEL 0 FOR 1.107;
+		LEVEL 1 FOR 46.51;
+		LEVEL 0 FOR 193.912;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[2]~7_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.574;
+		LEVEL 0 FOR 203.815;
+		LEVEL 1 FOR 0.629;
+		LEVEL 0 FOR 98.325;
+		LEVEL 1 FOR 1.23;
+		LEVEL 0 FOR 0.939;
+		LEVEL 1 FOR 48.372;
+		LEVEL 0 FOR 1.11;
+		LEVEL 1 FOR 44.987;
+		LEVEL 0 FOR 102.048;
+		LEVEL 1 FOR 200.446;
+		LEVEL 0 FOR 97.703;
+		LEVEL 1 FOR 1.323;
+		LEVEL 0 FOR 193.499;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[3]~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 4.266;
+		LEVEL 1 FOR 200.693;
+		LEVEL 0 FOR 102.261;
+		LEVEL 1 FOR 2.426;
+		LEVEL 0 FOR 49.156;
+		LEVEL 1 FOR 46.364;
+		LEVEL 0 FOR 199.801;
+		LEVEL 1 FOR 104.679;
+		LEVEL 0 FOR 49.156;
+		LEVEL 1 FOR 241.198;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[3]~9_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.313;
+		LEVEL 0 FOR 301.152;
+		LEVEL 1 FOR 1.544;
+		LEVEL 0 FOR 2.438;
+		LEVEL 1 FOR 49.144;
+		LEVEL 0 FOR 46.346;
+		LEVEL 1 FOR 304.529;
+		LEVEL 0 FOR 49.106;
+		LEVEL 1 FOR 46.658;
+		LEVEL 0 FOR 193.77;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[3]~8_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.762;
+		LEVEL 1 FOR 49.879;
+		LEVEL 0 FOR 0.8;
+		LEVEL 1 FOR 49.737;
+		LEVEL 0 FOR 1.106;
+		LEVEL 1 FOR 97.435;
+		LEVEL 0 FOR 50.944;
+		LEVEL 1 FOR 0.78;
+		LEVEL 0 FOR 49.377;
+		LEVEL 1 FOR 2.449;
+		LEVEL 0 FOR 248.563;
+		LEVEL 1 FOR 49.967;
+		LEVEL 0 FOR 48.864;
+		LEVEL 1 FOR 52.606;
+		LEVEL 0 FOR 96.659;
+		LEVEL 1 FOR 50.713;
+		LEVEL 0 FOR 0.8;
+		LEVEL 1 FOR 49.737;
+		LEVEL 0 FOR 1.106;
+		LEVEL 1 FOR 90.716;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[3]~10_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.071;
+		LEVEL 0 FOR 199.116;
+		LEVEL 1 FOR 2.113;
+		LEVEL 0 FOR 50.929;
+		LEVEL 1 FOR 0.795;
+		LEVEL 0 FOR 49.362;
+		LEVEL 1 FOR 2.464;
+		LEVEL 0 FOR 95.841;
+		LEVEL 1 FOR 202.689;
+		LEVEL 0 FOR 48.849;
+		LEVEL 1 FOR 52.621;
+		LEVEL 0 FOR 94.53;
+		LEVEL 1 FOR 1.608;
+		LEVEL 0 FOR 193.012;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|BB[1]~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 100.917;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.95;
+		LEVEL 1 FOR 100.05;
+		LEVEL 0 FOR 99.083;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[1]~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.447;
+		LEVEL 0 FOR 100.518;
+		LEVEL 1 FOR 98.603;
+		LEVEL 0 FOR 1.69;
+		LEVEL 1 FOR 100.386;
+		LEVEL 0 FOR 0.243;
+		LEVEL 1 FOR 2.368;
+		LEVEL 0 FOR 49.214;
+		LEVEL 1 FOR 46.306;
+		LEVEL 0 FOR 1.483;
+		LEVEL 1 FOR 100.386;
+		LEVEL 0 FOR 97.99;
+		LEVEL 1 FOR 1.74;
+		LEVEL 0 FOR 99.591;
+		LEVEL 1 FOR 3.29;
+		LEVEL 0 FOR 49.214;
+		LEVEL 1 FOR 47.905;
+		LEVEL 0 FOR 99.591;
+		LEVEL 1 FOR 93.035;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|data[1]~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.032;
+		LEVEL 0 FOR 100.501;
+		LEVEL 1 FOR 98.407;
+		LEVEL 0 FOR 1.394;
+		LEVEL 1 FOR 1.384;
+		LEVEL 0 FOR 50.34;
+		LEVEL 1 FOR 49.168;
+		LEVEL 0 FOR 1.875;
+		LEVEL 1 FOR 0.526;
+		LEVEL 0 FOR 47.697;
+		LEVEL 1 FOR 0.68;
+		LEVEL 0 FOR 0.78;
+		LEVEL 1 FOR 46.576;
+		LEVEL 0 FOR 1.466;
+		LEVEL 1 FOR 100.403;
+		LEVEL 0 FOR 97.72;
+		LEVEL 1 FOR 1.363;
+		LEVEL 0 FOR 1.428;
+		LEVEL 1 FOR 50.296;
+		LEVEL 0 FOR 51.065;
+		LEVEL 1 FOR 0.526;
+		LEVEL 0 FOR 47.697;
+		LEVEL 1 FOR 0.68;
+		LEVEL 0 FOR 0.78;
+		LEVEL 1 FOR 48.175;
+		LEVEL 0 FOR 99.574;
+		LEVEL 1 FOR 92.467;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr0~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.328;
+		LEVEL 0 FOR 50.473;
+		LEVEL 1 FOR 50.434;
+		LEVEL 0 FOR 97.78;
+		LEVEL 1 FOR 0.411;
+		LEVEL 0 FOR 4.007;
+		LEVEL 1 FOR 0.64;
+		LEVEL 0 FOR 98.314;
+		LEVEL 1 FOR 49.386;
+		LEVEL 0 FOR 48.095;
+		LEVEL 1 FOR 0.64;
+		LEVEL 0 FOR 0.789;
+		LEVEL 1 FOR 201.898;
+		LEVEL 0 FOR 48.862;
+		LEVEL 1 FOR 49.473;
+		LEVEL 0 FOR 2.042;
+		LEVEL 1 FOR 0.541;
+		LEVEL 0 FOR 46.53;
+		LEVEL 1 FOR 1.13;
+		LEVEL 0 FOR 0.739;
+		LEVEL 1 FOR 0.721;
+		LEVEL 0 FOR 45.975;
+		LEVEL 1 FOR 1.595;
+		LEVEL 0 FOR 49.998;
+		LEVEL 1 FOR 50.434;
+		LEVEL 0 FOR 91.765;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.888;
+		LEVEL 0 FOR 199.13;
+		LEVEL 1 FOR 0.411;
+		LEVEL 0 FOR 102.919;
+		LEVEL 1 FOR 2.319;
+		LEVEL 0 FOR 47.132;
+		LEVEL 1 FOR 0.694;
+		LEVEL 0 FOR 1.506;
+		LEVEL 1 FOR 44.848;
+		LEVEL 0 FOR 2.454;
+		LEVEL 1 FOR 249.332;
+		LEVEL 0 FOR 1.427;
+		LEVEL 1 FOR 49.442;
+		LEVEL 0 FOR 2.074;
+		LEVEL 1 FOR 0.54;
+		LEVEL 0 FOR 95.095;
+		LEVEL 1 FOR 1.594;
+		LEVEL 0 FOR 192.195;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.518;
+		LEVEL 0 FOR 100.487;
+		LEVEL 1 FOR 49.722;
+		LEVEL 0 FOR 47.811;
+		LEVEL 1 FOR 0.888;
+		LEVEL 0 FOR 1.38;
+		LEVEL 1 FOR 1.398;
+		LEVEL 0 FOR 50.326;
+		LEVEL 1 FOR 49.182;
+		LEVEL 0 FOR 0.636;
+		LEVEL 1 FOR 2.318;
+		LEVEL 0 FOR 48.59;
+		LEVEL 1 FOR 0.724;
+		LEVEL 0 FOR 47.318;
+		LEVEL 1 FOR 201.898;
+		LEVEL 0 FOR 48.863;
+		LEVEL 1 FOR 49.411;
+		LEVEL 0 FOR 2.103;
+		LEVEL 1 FOR 0.54;
+		LEVEL 0 FOR 95.097;
+		LEVEL 1 FOR 2.235;
+		LEVEL 0 FOR 99.56;
+		LEVEL 1 FOR 49.722;
+		LEVEL 0 FOR 42.273;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr3~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.327;
+		LEVEL 0 FOR 50.474;
+		LEVEL 1 FOR 50.433;
+		LEVEL 0 FOR 97.783;
+		LEVEL 1 FOR 0.412;
+		LEVEL 0 FOR 4.004;
+		LEVEL 1 FOR 0.639;
+		LEVEL 0 FOR 98.315;
+		LEVEL 1 FOR 49.39;
+		LEVEL 0 FOR 48.094;
+		LEVEL 1 FOR 0.639;
+		LEVEL 0 FOR 0.791;
+		LEVEL 1 FOR 201.894;
+		LEVEL 0 FOR 47.448;
+		LEVEL 1 FOR 50.886;
+		LEVEL 0 FOR 2.047;
+		LEVEL 1 FOR 0.54;
+		LEVEL 0 FOR 46.527;
+		LEVEL 1 FOR 1.134;
+		LEVEL 0 FOR 0.738;
+		LEVEL 1 FOR 0.722;
+		LEVEL 0 FOR 45.985;
+		LEVEL 1 FOR 1.581;
+		LEVEL 0 FOR 49.998;
+		LEVEL 1 FOR 50.433;
+		LEVEL 0 FOR 91.766;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr4~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.293;
+		LEVEL 0 FOR 50.5;
+		LEVEL 1 FOR 50.407;
+		LEVEL 0 FOR 49.593;
+		LEVEL 1 FOR 47.809;
+		LEVEL 0 FOR 0.414;
+		LEVEL 1 FOR 0.414;
+		LEVEL 0 FOR 3.982;
+		LEVEL 1 FOR 0.608;
+		LEVEL 0 FOR 98.346;
+		LEVEL 1 FOR 49.411;
+		LEVEL 0 FOR 47.072;
+		LEVEL 1 FOR 2.234;
+		LEVEL 0 FOR 0.218;
+		LEVEL 1 FOR 201.898;
+		LEVEL 0 FOR 47.436;
+		LEVEL 1 FOR 50.842;
+		LEVEL 0 FOR 2.099;
+		LEVEL 1 FOR 0.541;
+		LEVEL 0 FOR 46.518;
+		LEVEL 1 FOR 50.565;
+		LEVEL 0 FOR 49.593;
+		LEVEL 1 FOR 50.407;
+		LEVEL 0 FOR 49.593;
+		LEVEL 1 FOR 42.207;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr5~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.514;
+		LEVEL 0 FOR 50.277;
+		LEVEL 1 FOR 148.631;
+		LEVEL 0 FOR 1.382;
+		LEVEL 1 FOR 1.396;
+		LEVEL 0 FOR 50.328;
+		LEVEL 1 FOR 49.18;
+		LEVEL 0 FOR 0.681;
+		LEVEL 1 FOR 2.272;
+		LEVEL 0 FOR 48.593;
+		LEVEL 1 FOR 0.788;
+		LEVEL 0 FOR 44.805;
+		LEVEL 1 FOR 1.659;
+		LEVEL 0 FOR 0.79;
+		LEVEL 1 FOR 201.895;
+		LEVEL 0 FOR 47.442;
+		LEVEL 1 FOR 50.891;
+		LEVEL 0 FOR 2.047;
+		LEVEL 1 FOR 0.538;
+		LEVEL 0 FOR 46.524;
+		LEVEL 1 FOR 50.808;
+		LEVEL 0 FOR 49.35;
+		LEVEL 1 FOR 142.209;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst|WideOr6~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.523;
+		LEVEL 0 FOR 100.486;
+		LEVEL 1 FOR 97.999;
+		LEVEL 0 FOR 0.445;
+		LEVEL 1 FOR 1.335;
+		LEVEL 0 FOR 0.343;
+		LEVEL 1 FOR 1.078;
+		LEVEL 0 FOR 1.204;
+		LEVEL 1 FOR 0.643;
+		LEVEL 0 FOR 48.006;
+		LEVEL 1 FOR 0.45;
+		LEVEL 0 FOR 0.343;
+		LEVEL 1 FOR 48.862;
+		LEVEL 0 FOR 2.964;
+		LEVEL 1 FOR 48.241;
+		LEVEL 0 FOR 0.338;
+		LEVEL 1 FOR 46.591;
+		LEVEL 0 FOR 0.673;
+		LEVEL 1 FOR 0.756;
+		LEVEL 0 FOR 201.931;
+		LEVEL 1 FOR 47.372;
+		LEVEL 0 FOR 50.916;
+		LEVEL 1 FOR 2.056;
+		LEVEL 0 FOR 0.585;
+		LEVEL 1 FOR 0.529;
+		LEVEL 0 FOR 47.131;
+		LEVEL 1 FOR 0.695;
+		LEVEL 0 FOR 0.765;
+		LEVEL 1 FOR 45.956;
+		LEVEL 0 FOR 1.603;
+		LEVEL 1 FOR 0.631;
+		LEVEL 0 FOR 99.559;
+		LEVEL 1 FOR 91.991;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|temp[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.934;
+		LEVEL 0 FOR 100.478;
+		LEVEL 1 FOR 1.461;
+		LEVEL 0 FOR 49.175;
+		LEVEL 1 FOR 148.408;
+		LEVEL 0 FOR 2.439;
+		LEVEL 1 FOR 49.131;
+		LEVEL 0 FOR 47.946;
+		LEVEL 1 FOR 0.48;
+		LEVEL 0 FOR 100.96;
+		LEVEL 1 FOR 1.461;
+		LEVEL 0 FOR 49.175;
+		LEVEL 1 FOR 148.757;
+		LEVEL 0 FOR 2.09;
+		LEVEL 1 FOR 49.131;
+		LEVEL 0 FOR 48.214;
+		LEVEL 1 FOR 0.212;
+		LEVEL 0 FOR 100.96;
+		LEVEL 1 FOR 1.461;
+		LEVEL 0 FOR 49.175;
+		LEVEL 1 FOR 41.952;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|temp[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL Z FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|temp[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL Z FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Block_vlg_vec_tst|i1|inst7|temp[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL Z FOR 1000.0;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|AA";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+	CHILDREN = 1, 2, 3, 4;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|AA[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|AA[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|AA[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|AA[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|BB";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+	CHILDREN = 6, 7, 8, 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|BB[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 1;
+	PARENT = 5;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|BB[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 1;
+	PARENT = 5;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|BB[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 1;
+	PARENT = 5;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|BB[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 1;
+	PARENT = 5;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|S0";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|S1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|co";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|led[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|sel";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|sampler";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|gnd";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 22;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|vcc";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 23;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|unknown";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 24;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|devclrn";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|devpor";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 26;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|devoe";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 27;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|BB[2]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 28;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|AA[3]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 29;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|co~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 30;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|sel~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 31;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[6]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 32;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[5]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 33;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[4]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 34;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[3]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 35;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[2]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 36;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[1]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 37;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|led[0]~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 38;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|AA[2]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 39;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|AA[0]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 40;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|BB[0]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 41;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|AA[1]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 42;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|co2~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 43;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|temp[2]~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 44;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|co3~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 45;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|BB[3]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 46;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|co3~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 47;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|co4~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 48;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|temp[1]~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 49;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|co~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 50;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|S1~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 51;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[0]~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 52;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|S0~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 53;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|CC~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 54;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[2]~4_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 55;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[2]~5_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 56;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[2]~6_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 57;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[2]~7_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 58;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[3]~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 59;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[3]~9_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 60;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[3]~8_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 61;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[3]~10_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 62;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|BB[1]~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 63;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[1]~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 64;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|data[1]~3_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 65;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr0~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 66;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 67;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr2~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 68;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr3~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 69;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr4~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 70;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr5~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 71;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst|WideOr6~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 72;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|temp[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 73;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|temp[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 74;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|temp[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 75;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Block_vlg_vec_tst|i1|inst7|temp[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 76;
+	TREE_LEVEL = 0;
+}
+;

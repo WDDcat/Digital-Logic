@@ -1,0 +1,134 @@
+|Block
+co <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+AA[0] => Adder:inst7.AA[0]
+AA[0] => 74244:inst13.1A1
+AA[1] => Adder:inst7.AA[1]
+AA[1] => 74244:inst13.1A2
+AA[2] => Adder:inst7.AA[2]
+AA[2] => 74244:inst13.1A3
+AA[3] => Adder:inst7.AA[3]
+AA[3] => 74244:inst13.1A4
+BB[0] => Adder:inst7.BB[0]
+BB[0] => 74244:inst13.2A1
+BB[1] => Adder:inst7.BB[1]
+BB[1] => 74244:inst13.2A2
+BB[2] => Adder:inst7.BB[2]
+BB[2] => 74244:inst13.2A3
+BB[3] => Adder:inst7.BB[3]
+BB[3] => 74244:inst13.2A4
+sel <= Seven_Segment_Display:inst.sel
+S0 => 74139:inst9.A1
+S1 => 74139:inst9.B1
+led[0] <= Seven_Segment_Display:inst.a
+led[1] <= Seven_Segment_Display:inst.b
+led[2] <= Seven_Segment_Display:inst.c
+led[3] <= Seven_Segment_Display:inst.d
+led[4] <= Seven_Segment_Display:inst.e
+led[5] <= Seven_Segment_Display:inst.f
+led[6] <= Seven_Segment_Display:inst.g
+
+
+|Block|Adder:inst7
+AA[0] => temp.IN0
+AA[0] => co1.IN0
+AA[1] => temp.IN0
+AA[1] => co2.IN1
+AA[1] => co2.IN0
+AA[2] => temp.IN0
+AA[2] => co3.IN1
+AA[2] => co3.IN0
+AA[3] => temp.IN0
+AA[3] => co4.IN1
+AA[3] => co4.IN0
+BB[0] => temp.IN1
+BB[0] => co1.IN1
+BB[1] => temp.IN1
+BB[1] => co2.IN1
+BB[1] => co2.IN1
+BB[2] => temp.IN1
+BB[2] => co3.IN1
+BB[2] => co3.IN1
+BB[3] => temp.IN1
+BB[3] => co4.IN1
+BB[3] => co4.IN1
+CC[0] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+CC[1] <= CC.DB_MAX_OUTPUT_PORT_TYPE
+CC[2] <= CC.DB_MAX_OUTPUT_PORT_TYPE
+CC[3] <= CC.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block|Seven_Segment_Display:inst
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+sel <= <GND>
+
+
+|Block|74244:inst13
+2Y4 <= 26.DB_MAX_OUTPUT_PORT_TYPE
+2A4 => 26.DATAIN
+2GN => 33.IN0
+2Y3 <= 27.DB_MAX_OUTPUT_PORT_TYPE
+2A3 => 27.DATAIN
+2Y2 <= 31.DB_MAX_OUTPUT_PORT_TYPE
+2A2 => 31.DATAIN
+2Y1 <= 36.DB_MAX_OUTPUT_PORT_TYPE
+2A1 => 36.DATAIN
+1Y1 <= 1.DB_MAX_OUTPUT_PORT_TYPE
+1A1 => 1.DATAIN
+1GN => 4.IN0
+1Y2 <= 6.DB_MAX_OUTPUT_PORT_TYPE
+1A2 => 6.DATAIN
+1Y3 <= 10.DB_MAX_OUTPUT_PORT_TYPE
+1A3 => 10.DATAIN
+1Y4 <= 11.DB_MAX_OUTPUT_PORT_TYPE
+1A4 => 11.DATAIN
+
+
+|Block|74139:inst9
+Y10N <= 33.DB_MAX_OUTPUT_PORT_TYPE
+G1N => 7.IN0
+B1 => 11.IN0
+A1 => 8.IN0
+Y11N <= 34.DB_MAX_OUTPUT_PORT_TYPE
+Y12N <= 35.DB_MAX_OUTPUT_PORT_TYPE
+Y13N <= 36.DB_MAX_OUTPUT_PORT_TYPE
+Y20N <= 37.DB_MAX_OUTPUT_PORT_TYPE
+G2N => 12.IN0
+B2 => 16.IN0
+A2 => 13.IN0
+Y21N <= 38.DB_MAX_OUTPUT_PORT_TYPE
+Y22N <= 39.DB_MAX_OUTPUT_PORT_TYPE
+Y23N <= 40.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block|74244:inst15
+2Y4 <= 26.DB_MAX_OUTPUT_PORT_TYPE
+2A4 => 26.DATAIN
+2GN => 33.IN0
+2Y3 <= 27.DB_MAX_OUTPUT_PORT_TYPE
+2A3 => 27.DATAIN
+2Y2 <= 31.DB_MAX_OUTPUT_PORT_TYPE
+2A2 => 31.DATAIN
+2Y1 <= 36.DB_MAX_OUTPUT_PORT_TYPE
+2A1 => 36.DATAIN
+1Y1 <= 1.DB_MAX_OUTPUT_PORT_TYPE
+1A1 => 1.DATAIN
+1GN => 4.IN0
+1Y2 <= 6.DB_MAX_OUTPUT_PORT_TYPE
+1A2 => 6.DATAIN
+1Y3 <= 10.DB_MAX_OUTPUT_PORT_TYPE
+1A3 => 10.DATAIN
+1Y4 <= 11.DB_MAX_OUTPUT_PORT_TYPE
+1A4 => 11.DATAIN
+
+

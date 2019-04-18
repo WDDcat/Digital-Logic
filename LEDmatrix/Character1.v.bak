@@ -1,0 +1,21 @@
+module Character1(Col1,Col2,Col3,Col4,Col5,Col6,Col7,Col8,Col9,Col10,Col11,Col12,Col13,Col14,Col15,Col16)
+	output [16:1]Col1,Col2,Col3,Col4,Col5,Col6,Col7,Col8,Col9,Col10,Col11,Col12,Col13,Col14,Col15,Col16;
+	assign Col1  = 16'b0000_0000_0000_0000;
+	assign Col2  = 16'b0000_0000_0000_0000;
+	assign Col3  = 16'b0000_0000_0000_0000;
+	assign Col4  = 16'b0000_0000_0000_0000;
+	
+	assign Col5  = 16'b0000_0000_0000_0000;
+	assign Col6  = 16'b0000_0000_0000_0000;
+	assign Col7  = 16'b0000_0000_0000_0000;
+	assign Col8  = 16'b0000_0000_0000_0000;
+
+	assign Col9  = 16'b0000_0000_0000_0000;
+	assign Col10 = 16'b0000_0000_0000_0000;
+	assign Col11 = 16'b0000_0000_0000_0000;
+	assign Col12 = 16'b0000_0000_0000_0000;
+	
+	assign Col13 = 16'b0000_0000_0000_0000;
+	assign Col14 = 16'b0000_0000_0000_0000;
+	assign Col15 = 16'b0000_0000_0000_0000;
+	assign Col16 = 16'b0000_0000_0000_0000;

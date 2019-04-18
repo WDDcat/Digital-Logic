@@ -1,0 +1,3 @@
+module OuterBtn(O1U,O2U,O2D,O3U,O3D,O4D);
+	input O1U,O2U,O2D,O3U,O3D,O4D;
+	output 

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Oct 12 15:49:32 2011
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Voter
+Top-level Entity Name : Voter
+Family : Cyclone III
+Device : EP3C55F484C8
+Timing Models : Final
+Total logic elements : 1 / 55,856 ( < 1 % )
+    Total combinational functions : 1 / 55,856 ( < 1 % )
+    Dedicated logic registers : 0 / 55,856 ( 0 % )
+Total registers : 0
+Total pins : 5 / 328 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 2,396,160 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 312 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

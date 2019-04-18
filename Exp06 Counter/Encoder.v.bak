@@ -1,0 +1,24 @@
+module Encoder(clk_50mhz,num,out,sel0,sel1);
+	input [7:0]num;
+	input clk_50mhz;
+	output [3:0]out;
+	output sel0,sel1;
+	reg [3:0]out;
+	reg sel0,sel1;
+	always @ (posedge clk_50mhz)
+	begin
+		if(sel0 == 1)
+		begin
+			sel0 = 0;
+			sel1 = 1;
+			out = {num[7],num[6],num[5],num[4]};
+		end
+		else if(sel1 == 1)
+		begin
+			sel0 = 1;
+			sel1 = 0;
+			out = {nmu[3],num[2],num[1],num[0]}
+		end
+		else sel0 = 1;
+	end
+endmodule

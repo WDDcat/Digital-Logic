@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\16021019\LEDmatrix\simulation\qsim
+vNameDispaly
+Z1 I9LI`cC>>mG2Y?Dba_=OB73
+Z2 ViXHbcma_LWjkjVMC^LmRD3
+Z3 dD:\16021019\LEDmatrix\simulation\qsim
+Z4 w1511427407
+Z5 8NameDispaly.vo
+Z6 FNameDispaly.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|NameDispaly.vo|
+Z9 o-work work -O0
+Z10 n@name@dispaly
+!i10b 1
+Z11 !s100 GJF@A4BOKPQjLFi;G:DDM3
+!s85 0
+Z12 !s108 1511427409.263000
+Z13 !s107 NameDispaly.vo|
+!s101 -O0
+vNameDispaly_vlg_check_tst
+!i10b 1
+Z14 !s100 N19kY14g;TXCU3QUo?40W1
+Z15 Ihn6fR1[[7^CZFPEbgDIYZ2
+Z16 V0Y0?;>0KnGYg7`om9d<>E3
+R3
+R4
+Z17 8NameDispaly.vt
+Z18 FNameDispaly.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1511427409.653000
+Z20 !s107 NameDispaly.vt|
+Z21 !s90 -work|work|NameDispaly.vt|
+!s101 -O0
+R9
+Z22 n@name@dispaly_vlg_check_tst
+vNameDispaly_vlg_sample_tst
+!i10b 1
+Z23 !s100 f7WSI`XW:k4N>:iok<E@71
+Z24 In`XO[2M4CFDhHXYhbdU@a1
+Z25 VM8zM5g`V5zcfJMnPgdMha2
+R3
+R4
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z26 n@name@dispaly_vlg_sample_tst
+vNameDispaly_vlg_vec_tst
+!i10b 1
+Z27 !s100 `KB;_D8[IHh:@m;PBZogz3
+Z28 IYn6JNST<h?8^:S5CW9NK_3
+Z29 V@0Ko0[khXTKCa>;Qh6[Ji2
+R3
+R4
+R17
+R18
+Z30 L0 503
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z31 n@name@dispaly_vlg_vec_tst

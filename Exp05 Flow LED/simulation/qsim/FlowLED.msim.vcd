@@ -1,0 +1,382 @@
+$comment
+	File created using the following command:
+		vcd file FlowLED.msim.vcd -direction
+$end
+$date
+	Thu Nov 09 15:38:25 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module FlowLED_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var wire 1 # out [7] $end
+$var wire 1 $ out [6] $end
+$var wire 1 % out [5] $end
+$var wire 1 & out [4] $end
+$var wire 1 ' out [3] $end
+$var wire 1 ( out [2] $end
+$var wire 1 ) out [1] $end
+$var wire 1 * out [0] $end
+$var wire 1 + sampler $end
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 out[0]~output_o $end
+$var wire 1 3 out[1]~output_o $end
+$var wire 1 4 out[2]~output_o $end
+$var wire 1 5 out[3]~output_o $end
+$var wire 1 6 out[4]~output_o $end
+$var wire 1 7 out[5]~output_o $end
+$var wire 1 8 out[6]~output_o $end
+$var wire 1 9 out[7]~output_o $end
+$var wire 1 : clk~input_o $end
+$var wire 1 ; clk~inputclkctrl_outclk $end
+$var wire 1 < state.S1~0_combout $end
+$var wire 1 = reset~input_o $end
+$var wire 1 > reset~inputclkctrl_outclk $end
+$var wire 1 ? state.S1~q $end
+$var wire 1 @ state.S2~feeder_combout $end
+$var wire 1 A state.S2~q $end
+$var wire 1 B state.S3~feeder_combout $end
+$var wire 1 C state.S3~q $end
+$var wire 1 D state.S4~feeder_combout $end
+$var wire 1 E state.S4~q $end
+$var wire 1 F state.S5~feeder_combout $end
+$var wire 1 G state.S5~q $end
+$var wire 1 H state.S6~feeder_combout $end
+$var wire 1 I state.S6~q $end
+$var wire 1 J state.S7~feeder_combout $end
+$var wire 1 K state.S7~q $end
+$var wire 1 L state.S0~0_combout $end
+$var wire 1 M state.S0~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x+
+0,
+1-
+x.
+1/
+10
+11
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+0:
+x;
+x<
+0=
+x>
+0?
+x@
+0A
+xB
+0C
+xD
+0E
+xF
+0G
+xH
+0I
+xJ
+0K
+xL
+0M
+$end
+#176
+0>
+0;
+#546
+0@
+#547
+0D
+#548
+0F
+#549
+0B
+0H
+0J
+#569
+1<
+#570
+1L
+#3001
+08
+0$
+#3002
+03
+0)
+#3009
+07
+0%
+#3014
+09
+0#
+#3043
+12
+1*
+#3045
+06
+0&
+#3235
+05
+0'
+#4821
+04
+0(
+#50000
+1!
+0+
+#50897
+1:
+#51083
+1;
+#53505
+1?
+1M
+#53982
+0<
+#54003
+1@
+#56587
+13
+1)
+#56636
+02
+0*
+#100000
+0!
+1+
+#100948
+0:
+#101124
+0;
+#150000
+1!
+0+
+#150897
+1:
+#151083
+1;
+#153505
+0?
+1A
+#154005
+1B
+#154051
+0@
+#156507
+03
+0)
+#158368
+14
+1(
+#200000
+0!
+1+
+#200948
+0:
+#201124
+0;
+#250000
+1!
+0+
+#250897
+1:
+#251083
+1;
+#253505
+0A
+1C
+#254004
+1D
+#254054
+0B
+#256861
+15
+1'
+#258326
+04
+0(
+#300000
+0!
+1+
+#300948
+0:
+#301124
+0;
+#350000
+1!
+0+
+#350897
+1:
+#351083
+1;
+#353505
+0C
+1E
+#354006
+1F
+#354052
+0D
+#356644
+16
+1&
+#356740
+05
+0'
+#400000
+0!
+1+
+#400948
+0:
+#401124
+0;
+#450000
+1!
+0+
+#450897
+1:
+#451083
+1;
+#453505
+0E
+1G
+#454005
+1H
+#454053
+0F
+#456550
+06
+0&
+#456594
+17
+1%
+#500000
+0!
+1+
+#500948
+0:
+#501124
+0;
+#550000
+1!
+0+
+#550897
+1:
+#551083
+1;
+#553505
+0G
+1I
+#554004
+1J
+#554054
+0H
+#556514
+07
+0%
+#556585
+18
+1$
+#600000
+1"
+0!
+1+
+#600897
+1=
+#600948
+0:
+#601083
+1>
+#601124
+0;
+#603492
+0M
+0I
+#604041
+0J
+#604061
+1<
+#606493
+08
+0$
+#606535
+12
+1*
+#650000
+1!
+0+
+#650897
+1:
+#651083
+1;
+#700000
+0!
+1+
+#700948
+0:
+#701124
+0;
+#750000
+1!
+0+
+#750897
+1:
+#751083
+1;
+#800000
+0!
+1+
+#800948
+0:
+#801124
+0;
+#850000
+1!
+0+
+#850897
+1:
+#851083
+1;
+#900000
+0!
+1+
+#900948
+0:
+#901124
+0;
+#950000
+1!
+0+
+#950897
+1:
+#951083
+1;
+#1000000

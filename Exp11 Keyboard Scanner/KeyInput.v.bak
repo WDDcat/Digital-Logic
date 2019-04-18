@@ -1,0 +1,28 @@
+module KeyInpu(key,clk,data1,data2,data3,data4,data5,data6,data7,data8);
+	input [3:0]key;
+	input clk;
+	output data1,data2,data3,data4,data5,data6,data7,data8;
+	reg [3:0]temp;
+	reg [2:0]num = 3'b000;
+	reg data1,data2,data3,data4,data5,data6,data7,data8;
+	always @ (posedge clk)
+	begin
+		if(temp ~= key)
+		begin
+			case(num)
+				3'b000:data1=key;
+				3'b001:data2=key;
+				3'b010:data3=key;
+				3'b011:data4=key;
+				3'b100:data5=key;
+				3'b101:data6=key;
+				3'b110:data7=key;
+				3'b111:data8=key;
+				default:num=3'b000;
+			endcase
+			num = num + 1'b1;
+		end
+		temp = key;
+	end
+endmodule
+	

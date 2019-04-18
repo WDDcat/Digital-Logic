@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Nov 16 16:26:11 2017
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Frequency_Divider
+Top-level Entity Name : Block1
+Family : Cyclone III
+Device : EP3C55F484C8
+Timing Models : Final
+Total logic elements : 208 / 55,856 ( < 1 % )
+    Total combinational functions : 192 / 55,856 ( < 1 % )
+    Dedicated logic registers : 140 / 55,856 ( < 1 % )
+Total registers : 140
+Total pins : 15 / 328 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 2,396,160 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 312 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

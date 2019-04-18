@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ladium\Desktop\Test8\simulation\qsim
+vShift_Reg
+Z1 !s100 `A[g3`;A^EG6cRled^4RN0
+Z2 In`9RPPn[zLIUa6AkO;TIU0
+Z3 V8VVMO;m=VCoXlZgEhQLnD0
+Z4 dC:\Users\ladium\Desktop\Test8\simulation\qsim
+Z5 w1511153116
+Z6 8Shift_Register.vo
+Z7 FShift_Register.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Shift_Register.vo|
+Z10 o-work work -O0
+Z11 n@shift_@reg
+!i10b 1
+!s85 0
+Z12 !s108 1511153116.706000
+Z13 !s107 Shift_Register.vo|
+!s101 -O0
+vShift_Reg_vlg_check_tst
+!i10b 1
+Z14 !s100 Q4emHTz?NI44_>=aOjJQS0
+Z15 IP38PJUz:7b5?Cf77RJV4J2
+Z16 V?UVo^g4f<V@SB3OFkhnLb3
+R4
+Z17 w1511153115
+Z18 8Shift_Register.vt
+Z19 FShift_Register.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1511153116.909000
+Z21 !s107 Shift_Register.vt|
+Z22 !s90 -work|work|Shift_Register.vt|
+!s101 -O0
+R10
+Z23 n@shift_@reg_vlg_check_tst
+vShift_Reg_vlg_sample_tst
+!i10b 1
+Z24 !s100 F`4B9DG8;U6YJNaK:j_Q?0
+Z25 I@S`0ZcP=`nWZJ?3X8Qcgi1
+Z26 V;0i0^:4I5=>zc]KcL5KiI2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@shift_@reg_vlg_sample_tst
+vShift_Reg_vlg_vec_tst
+!i10b 1
+!s100 zDz[RK842<gJ1;iMGlb^k2
+I8lSMg^cbSeNX^gimlMjCL3
+Z28 VO0R^26hJb;amTDDQ_d]HQ3
+R4
+R17
+R18
+R19
+Z29 L0 283
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@shift_@reg_vlg_vec_tst
+vShift_Register
+Z31 I?SFHK?a:bLVaGJ[lYEA5O2
+Z32 V_`?iLMYfcb6d=[Oei6Pbg0
+R4
+Z33 w1511152171
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z34 n@shift_@register
+Z35 !s100 `YPC@mNedzLN;`=jM?f4X3
+Z36 !s108 1511152172.040000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vShift_Register_vlg_check_tst
+Z37 !s100 3V9g1OGh`WGTQc>NDD<H>0
+Z38 I[3I>DI:hi3mLi2oabcEj63
+Z39 VCk6GeH9amb8`nRZmSK`_91
+R4
+Z40 w1511152170
+R18
+R19
+L0 63
+R8
+r1
+31
+Z41 !s108 1511152172.196000
+Z42 !s107 Shift_Register.vt|
+R22
+R10
+Z43 n@shift_@register_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vShift_Register_vlg_sample_tst
+Z44 !s100 ibAW5nZU:>ISZE3FmmLEJ1
+Z45 ICT;^?8DQ0E=EC[C9Th0Fh1
+Z46 VF>>QM2ZJ_:158eV4V=z:S0
+R4
+R40
+R18
+R19
+L0 29
+R8
+r1
+31
+R41
+R42
+R22
+R10
+Z47 n@shift_@register_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vShift_Register_vlg_vec_tst
+Z48 IgYWjaCO@bOoaOTTH@;8UM0
+Z49 VS0em<kLVHL;mYkAgY@4hK0
+R4
+R40
+R18
+R19
+R29
+R8
+r1
+31
+R41
+R42
+R22
+R10
+Z50 n@shift_@register_vlg_vec_tst
+Z51 !s100 NX4IFnH3:CiFGak]jfCKM1
+!i10b 1
+!s85 0
+!s101 -O0

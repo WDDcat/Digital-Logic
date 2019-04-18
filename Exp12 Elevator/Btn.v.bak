@@ -1,0 +1,32 @@
+module Btn(B1U,B2U,B2D,B3U,B3D,B4D,B1,B2,B3,B4);
+	input B1U,B2U,B2D,B3U,B3D,B4D,B1,B2,B3,B4;
+	input head;
+	input [1:0]position;
+	output E1U,E2U,E2D,E3U,E3D,E4D,E1,E2,E3,E4;
+	
+	always @ (*)
+	begin
+		if(B1U == 0)	
+			if(position != 2'b00) E1U = 1'b1;
+			else	E1U = 1'b0;
+		if(B2U == 0)	
+			if(position != 2'b01)	E2U = 1'b1;
+			else	if(head == 1'b0)	E2U = 1'b1;
+			else	E2U = 1'b0;
+		if(B2D == 0)
+			if(position != 2'b01)	E2D = 1'b1;
+			else	if(head == 1'b1)	E2D = 1'b1;
+			else	E2D = 1'b0;
+		if(B3U == 0)	
+			if(position != 2'b10)	E3U = 1'b1;
+			else	if(head == 1'b0)	E3U = 1'b1;
+			else	E3U = 1'b0;
+		if(B3D == 0)
+			if(position != 2'b10)	E3D = 1'b1;
+			else	if(head == 1'b1)	E3D = 1'b1;
+			else	E3D = 1'b0;		
+		if(B4D == 0)	
+			if(position != 2'b11) E1U = 1'b1;
+			else	E1U = 1'b0;
+	end
+endmodule

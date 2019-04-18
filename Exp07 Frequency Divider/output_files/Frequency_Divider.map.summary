@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Nov 16 16:25:59 2017
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Frequency_Divider
+Top-level Entity Name : Block1
+Family : Cyclone III
+Total logic elements : 192
+    Total combinational functions : 192
+    Dedicated logic registers : 140
+Total registers : 140
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,449 @@
+$comment
+	File created using the following command:
+		vcd file Selector.msim.vcd -direction
+$end
+$date
+	Wed Oct 26 15:46:10 2011
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Block1_vlg_vec_tst $end
+$var reg 1 ! en $end
+$var reg 4 " in5 [3:0] $end
+$var reg 4 # in6 [3:0] $end
+$var reg 3 $ select [2:0] $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 ' c $end
+$var wire 1 ( d $end
+$var wire 1 ) e $end
+$var wire 1 * f $end
+$var wire 1 + g $end
+$var wire 1 , sel $end
+$var wire 1 - sampler $end
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 inst|Mux3~0_combout $end
+$var wire 1 5 inst|Mux3~1_combout $end
+$var wire 1 6 inst|Mux2~0_combout $end
+$var wire 1 7 inst|Mux2~1_combout $end
+$var wire 1 8 inst|Mux1~0_combout $end
+$var wire 1 9 inst|Mux1~1_combout $end
+$var wire 1 : in6[0]~input_o $end
+$var wire 1 ; in5[0]~input_o $end
+$var wire 1 < in6[1]~input_o $end
+$var wire 1 = in5[1]~input_o $end
+$var wire 1 > in6[2]~input_o $end
+$var wire 1 ? in5[2]~input_o $end
+$var wire 1 @ in6[3]~input_o $end
+$var wire 1 A a~output_o $end
+$var wire 1 B b~output_o $end
+$var wire 1 C c~output_o $end
+$var wire 1 D d~output_o $end
+$var wire 1 E e~output_o $end
+$var wire 1 F f~output_o $end
+$var wire 1 G g~output_o $end
+$var wire 1 H sel~output_o $end
+$var wire 1 I en~input_o $end
+$var wire 1 J select[2]~input_o $end
+$var wire 1 K select[1]~input_o $end
+$var wire 1 L in5[3]~input_o $end
+$var wire 1 M select[0]~input_o $end
+$var wire 1 N inst|Mux0~0_combout $end
+$var wire 1 O inst|Mux0~1_combout $end
+$var wire 1 P inst1|WideOr0~0_combout $end
+$var wire 1 Q inst1|WideOr1~0_combout $end
+$var wire 1 R inst1|WideOr2~0_combout $end
+$var wire 1 S inst1|WideOr3~0_combout $end
+$var wire 1 T inst1|WideOr4~0_combout $end
+$var wire 1 U inst1|WideOr5~0_combout $end
+$var wire 1 V inst1|WideOr6~0_combout $end
+$var wire 1 W inst|out [3] $end
+$var wire 1 X inst|out [2] $end
+$var wire 1 Y inst|out [1] $end
+$var wire 1 Z inst|out [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+b1 "
+b1001 #
+b0 $
+x%
+x&
+x'
+x(
+x)
+x*
+x+
+0,
+x-
+0.
+1/
+x0
+11
+12
+13
+x4
+x5
+x6
+x7
+x8
+x9
+1:
+1;
+0<
+0=
+0>
+0?
+1@
+xA
+xB
+xC
+xD
+xE
+xF
+xG
+0H
+1I
+0J
+0K
+0L
+0M
+xN
+xO
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xZ
+xY
+xX
+xW
+$end
+#4221
+04
+09
+0O
+#4998
+05
+#5105
+0N
+#5123
+0W
+#5171
+0X
+#5480
+08
+#5481
+07
+#5943
+0Z
+#6054
+0Q
+#6361
+06
+#6399
+0Y
+#6817
+0T
+#6847
+0P
+#6856
+0S
+#7242
+0R
+#7245
+0U
+#7246
+0V
+#10221
+1E
+1)
+#10817
+1D
+1(
+#10995
+1B
+1&
+#11087
+1F
+1*
+#11196
+0G
+0+
+#11322
+1C
+1'
+#12053
+1A
+1%
+#50000
+b1 $
+0-
+#50867
+1M
+#55729
+1N
+#56095
+17
+#57043
+1Y
+#57908
+1V
+#57909
+1R
+#57911
+1U
+#62001
+0F
+0*
+#62118
+1G
+1+
+#62187
+0C
+0'
+#100000
+b11 $
+b10 $
+1-
+#100857
+1K
+#100917
+0M
+#104818
+18
+#104820
+16
+#105216
+07
+#106134
+0Y
+#106319
+15
+#106977
+0R
+#106980
+0U
+#106981
+0V
+#107314
+1Z
+#108131
+1U
+#108134
+1T
+#108141
+1P
+#108144
+1S
+#110931
+0G
+0+
+#111057
+1C
+1'
+#111655
+0E
+0)
+#112339
+0D
+0(
+#113776
+0A
+0%
+#150000
+b11 $
+0-
+#150867
+1M
+#156030
+05
+#156975
+0Z
+#157841
+0U
+#157849
+0T
+#157879
+0P
+#157888
+0S
+#161253
+1E
+1)
+#161683
+1F
+1*
+#161849
+1D
+1(
+#163085
+1A
+1%
+#200000
+b111 $
+b101 $
+b100 $
+1-
+#200857
+1J
+#200908
+0K
+#200917
+0M
+#204909
+19
+1O
+#204910
+17
+#204912
+14
+#205002
+08
+#205005
+06
+#205417
+09
+#205419
+07
+#205663
+15
+#205847
+1W
+#205858
+1Y
+#206022
+0N
+#206323
+1V
+#206337
+0Y
+#206435
+0O
+#206658
+1Z
+#207337
+0W
+#207478
+1T
+#207837
+0V
+#207855
+1S
+#207859
+1U
+1P
+#210999
+0E
+0)
+#211949
+0F
+0*
+#212050
+0D
+0(
+#213494
+0A
+0%
+#250000
+b101 $
+0-
+#250867
+1M
+#255729
+1N
+#256145
+1O
+#257083
+1W
+#257537
+0U
+0P
+#257539
+0S
+#257559
+1V
+#261379
+1F
+1*
+#261500
+1D
+1(
+#261769
+1G
+1+
+#262743
+1A
+1%
+#300000
+b111 $
+b110 $
+1-
+#300857
+1K
+#300917
+0M
+#304818
+18
+#304820
+16
+#305235
+19
+#305238
+17
+#306186
+1Y
+#306232
+1X
+#307011
+1R
+#307028
+1Q
+#307059
+0V
+#307064
+1S
+#307068
+1U
+#307069
+1P
+#311009
+0G
+0+
+#311158
+0F
+0*
+#311259
+0D
+0(
+#311289
+0C
+0'
+#312257
+0B
+0&
+#312704
+0A
+0%
+#350000
+b111 $
+0-
+#350867
+1M
+#400000

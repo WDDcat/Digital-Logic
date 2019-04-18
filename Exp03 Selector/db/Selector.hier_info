@@ -1,0 +1,69 @@
+|Block1
+a <= Seven_Segment_Display:inst1.a
+en => Selector:inst.en
+in5[0] => Selector:inst.in5[0]
+in5[1] => Selector:inst.in5[1]
+in5[2] => Selector:inst.in5[2]
+in5[3] => Selector:inst.in5[3]
+in6[0] => Selector:inst.in6[0]
+in6[1] => Selector:inst.in6[1]
+in6[2] => Selector:inst.in6[2]
+in6[3] => Selector:inst.in6[3]
+select[0] => Selector:inst.select[0]
+select[1] => Selector:inst.select[1]
+select[2] => Selector:inst.select[2]
+b <= Seven_Segment_Display:inst1.b
+c <= Seven_Segment_Display:inst1.c
+d <= Seven_Segment_Display:inst1.d
+e <= Seven_Segment_Display:inst1.e
+f <= Seven_Segment_Display:inst1.f
+g <= Seven_Segment_Display:inst1.g
+sel <= Seven_Segment_Display:inst1.sel
+
+
+|Block1|Seven_Segment_Display:inst1
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+sel <= <GND>
+
+
+|Block1|Selector:inst
+select[0] => Mux0.IN8
+select[0] => Mux1.IN8
+select[0] => Mux2.IN8
+select[0] => Mux3.IN8
+select[1] => Mux0.IN7
+select[1] => Mux1.IN7
+select[1] => Mux2.IN7
+select[1] => Mux3.IN7
+select[2] => Mux0.IN6
+select[2] => Mux1.IN6
+select[2] => Mux2.IN6
+select[2] => Mux3.IN6
+in5[0] => Mux3.IN9
+in5[1] => Mux2.IN9
+in5[2] => Mux1.IN9
+in5[3] => Mux0.IN9
+in6[0] => Mux3.IN10
+in6[1] => Mux2.IN10
+in6[2] => Mux1.IN10
+in6[3] => Mux0.IN10
+out[0] <= out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+en => out[0]$latch.LATCH_ENABLE
+en => out[1]$latch.LATCH_ENABLE
+en => out[2]$latch.LATCH_ENABLE
+en => out[3]$latch.LATCH_ENABLE
+
+

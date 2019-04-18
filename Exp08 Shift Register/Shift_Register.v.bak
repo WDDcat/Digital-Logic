@@ -1,0 +1,44 @@
+module Shift_Register(clk,Din,Num,LorR,Dout);
+	input clk,LorR;
+	input [7:0]Din;
+	input [2:0]Num;
+	output [7:0]Dout;
+	reg [7:0]Din,Dout;
+	reg [2:0]N;
+	parameter N=1'b0;
+	always @ (posedge clk)
+	begin
+		if(LorR == 0)
+		begin
+			while(N < Num)
+			begin
+				Dout[0] = Din[7];
+				Dout[7] = Din[6];
+				Dout[6] = Din[5];
+				Dout[5] = Din[4];
+				Dout[4] = Din[3];
+				Dout[3] = Din[2];
+				Dout[2] = Din[1];
+				Dout[1] = Din[0];			
+				N = N + 1'b1;
+			end
+		end
+		else if (LorR == 1)
+		begin
+			while(N < Num)
+			begin
+				Dout[0] = Din[7];
+				Dout[7] = Din[6];
+				Dout[6] = Din[5];
+				Dout[5] = Din[4];
+				Dout[4] = Din[3];
+				Dout[3] = Din[2];
+				Dout[2] = Din[1];
+				Dout[1] = Din[0];			
+				N = N + 1'b1;
+			end
+		end
+	end
+endmodule
+
+	

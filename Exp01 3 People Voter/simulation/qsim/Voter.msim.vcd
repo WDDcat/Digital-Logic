@@ -1,0 +1,195 @@
+$comment
+	File created using the following command:
+		vcd file Voter.msim.vcd -direction
+$end
+$date
+	Wed Oct 12 16:04:53 2011
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Voter_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$var wire 1 % F $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - F~output_o $end
+$var wire 1 . D~input_o $end
+$var wire 1 / C~input_o $end
+$var wire 1 0 B~input_o $end
+$var wire 1 1 A~input_o $end
+$var wire 1 2 F~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+x%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+x-
+0.
+0/
+00
+01
+x2
+$end
+#3868
+02
+#6674
+0-
+0%
+#50000
+1$
+0&
+#50877
+1.
+#100000
+1#
+0$
+1&
+#100887
+1/
+#100928
+0.
+#150000
+1$
+0&
+#150877
+1.
+#200000
+1"
+0#
+0$
+1&
+#200877
+10
+#200928
+0.
+#200938
+0/
+#250000
+1$
+0&
+#250877
+1.
+#300000
+1#
+0$
+1&
+#300887
+1/
+#300928
+0.
+#350000
+1$
+0&
+#350877
+1.
+#354716
+12
+#357570
+1-
+1%
+#400000
+1!
+0"
+0#
+0$
+1&
+#400857
+11
+#400928
+0.
+00
+#400938
+0/
+#404936
+02
+#407742
+0-
+0%
+#450000
+1$
+0&
+#450877
+1.
+#500000
+1#
+0$
+1&
+#500887
+1/
+#500928
+0.
+#550000
+1$
+0&
+#550877
+1.
+#554716
+12
+#557570
+1-
+1%
+#600000
+1"
+0#
+0$
+1&
+#600877
+10
+#600928
+0.
+#600938
+0/
+#604967
+02
+#607773
+0-
+0%
+#650000
+1$
+0&
+#650877
+1.
+#654716
+12
+#657570
+1-
+1%
+#700000
+1#
+0$
+1&
+#700887
+1/
+#700928
+0.
+#750000
+1$
+0&
+#750877
+1.
+#800000

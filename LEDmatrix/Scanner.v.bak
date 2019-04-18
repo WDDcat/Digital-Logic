@@ -1,0 +1,26 @@
+module Scanner(Row,Col_Select,Col0,Col1,Col2,Col3,Col4,Col5,Col6,Col7,Col8,Col9,Col10,Col11,Col12,Col13,Col14,Col15);
+	output [1:16]Row;
+	input [1:16] Col0,Col1,Col2,Col3,Col4,Col5,Col6,Col7,Col8,Col9,Col10,Col11,Col12,Col13,Col14,Col15;
+	input [4:1]Col;
+	reg [1:16]Row;
+	always @ (Row)
+	begin
+		case(Row)
+		4'b0000:Row = Col0;
+		4'b0001:Row = Col1;
+		4'b0010:Row = Col2;
+		4'b0011:Row = Col3;
+		4'b0100:Row = Col4;
+		4'b0101:Row = Col5;
+		4'b0110:Row = Col6;
+		4'b0111:Row = Col7;
+		4'b1000:Row = Col8;
+		4'b1001:Row = Col9;
+		4'b1010:Row = Col10;
+		4'b1011:Row = Col11;
+		4'b1100:Row = Col12;
+		4'b1101:Row = Col13;
+		4'b1110:Row = Col14;
+		4'b1111:Row = Col15;
+	end
+endmodule

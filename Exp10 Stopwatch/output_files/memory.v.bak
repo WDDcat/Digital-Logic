@@ -1,0 +1,20 @@
+module memory(in1,in2,in4,in5,in7,in8,btn1,btn2,out1,out2,out3,out4,out5,out6,out7,out8,en,rst);
+	input [3:0]in1,in2,in4,in5,in7,in8;
+	input btn;
+	output [3:0]out1,out2,out3,out4,out5,out6,out7,out8;
+	output en;
+	reg [3:0]t1,t2,t3,t4,t5,t6,t7,t8;
+	reg num[2:0] = 3'b001;
+	always @ ()
+	begin
+	
+	end
+	always @ (posedge btn2)
+	begin
+		num = num + 1'b1;
+		case(num)
+			3'b001;
+		endcase
+	end
+endmodule
+	
